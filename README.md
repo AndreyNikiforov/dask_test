@@ -16,11 +16,12 @@ pip install 'dask[complete]' pyarrow rich click more-itertools
 ## running
 
 ```sh
-python generate.py
+python generate_seq.py
 ```
 
 # counter
 
 Count records using dask. No OOMs expected and reasonable performance
 
+see Dockefile to running python in constrained memory
 
